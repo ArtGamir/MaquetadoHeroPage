@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+.menuNav {
+    width: 100%;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+
+.menuNav ul {
+    display: inline;
+    margin-left: auto;
+    float: right;
+}
+
+.menuNav ul li {
+    display: inline;
+}
+
+.menuNav ul li a {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 20px 10px;
+    display: inline-block;
+    font-size: 1.5em;    
+}
+
+.logo {
+    font-size: 2em;
+    display: inline-block;
+    margin-top: 0.45em;
+}
+
+.bg-image {
+    min-height: 100vh;
+    width: 100%;
+    background: url("https://picsum.photos/650/450?random=3");
+    background-repeat: no-repeat;
+    background-size: cover ;
+    background-position: center;
+}
+
+.hero-text-container {
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+    position: relative;
+    top: 20vh;
+    background-color: #000a;
+    border-radius: 20px;
+    padding: 15px;
+}
+
+.hero-text-container h1 {
+    font-size: 4em;
+}
+
+.hero-text-container p {
+    margin: 10px;
+}
+
+.btn-fill {
+    margin: 10px;
+}
+
+.fila {
+    width: 100%;
+    padding: 1em;
+}
+
+.imageContainer{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.imageContainer img {
+    width: 100%;
+}
+
+.textContainer {
+    text-align: center;
+}
+
+footer{
+    background-color: #333;
+    padding: 2em;
+    text-align: center;
+}
+
+@media screen and (min-width: 601) and ( max-width: 991px) {
+    .hero-text-container h1 {
+        font-size: 3em;
+    }
+    .hero-text-container h2 {
+        font-size: 2em;
+        margin: 1em 0;
+    }
+    .hero-text-container p {
+        font-size: 1.2em;
+    }
+}
+
+@media screen and (min-width: 992) {
+    .hero-text-container h1 {
+        font-size: 3.5em;
+    }
+    .hero-text-container h2 {
+        font-size: 2.5em;
+        margin: 1em 0;
+    }
+    .hero-text-container p {
+        font-size: 1.4em;
+    }
+}
